@@ -4,11 +4,11 @@ services:
     container_name: windows
     environment:
       VERSION: "11"
-      RAM_SIZE: "8G"
-      CPU_CORES: "4"
+      RAM_SIZE: "16G"
+      CPU_CORES: "8"
       DISK_SIZE: "180G"
-      USERNAME: "enderman"
-      PASSWORD: "123456"
+      USERNAME: "Kiubby"
+      PASSWORD: "kiubby@123"
     devices:
       - /dev/kvm
       - /dev/net/tun
