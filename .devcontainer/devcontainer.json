@@ -1,0 +1,6 @@
+{
+  "name": "Codespace with Tailscale",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "./.devcontainer/setup-tailscale.sh",
+  "remoteUser": "vscode"
+}
